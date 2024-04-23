@@ -1,0 +1,119 @@
+body {
+padding: 0px 20px 0px 20px;
+margin-top: 0px;
+}
+
+.content {
+display: flex;
+width: 100%;
+}
+
+.navbar {
+background-color: #4432a8;
+display: flex;
+justify-content: space-between;
+padding: 0px 20px 0px 20px;
+margin-bottom: 20px;
+}
+
+.navbar h3 {
+color: white;
+}
+
+.navbar > a {
+color: white;
+text-decoration: none;
+align-content: center;
+}
+
+.leftbar {
+width: 20%;
+}
+
+.friends {
+width: 55%;
+padding: 10px 30px 10px 30px;
+}
+
+.rightbar {
+width: 25%;
+}
+
+.baseinfo {
+border: 1px solid lightgray;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+.baseinfo a {
+color: blue;
+text-decoration: none;
+}
+
+.baseinfo div {
+padding: 20px 10px 20px 10px;
+}
+
+.baseinfo p {
+color: gray;
+}
+
+.links a {
+display: block;
+border: 1px solid lightgray;
+text-decoration: none;
+padding: 5px 10px 5px 10px;
+color: gray;
+}
+
+.friend-card {
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.remove-btn {
+background-color: red;
+color: white;
+padding: 5px;
+border-radius: 5px;
+border: solid red;
+}
+
+.send-btn {
+background-color: gray;
+color: white;
+padding: 5px;
+border-radius: 5px;
+border: solid gray;
+}
+
+.friend-info {
+display: flex;
+}
+
+.friend-info p {
+color: gray;
+}
+
+.friend-info img {
+width: 100px;
+border-radius: 100px;
+}
+
+.news-card {
+display: flex;
+justify-content: space-between;
+border: 1px solid lightgray;
+padding: 10px;
+padding-left: 20px;
+}
+
+.news-card h6 {
+color: gray;
+}
+
+.time {
+color: gray;
+}
+
